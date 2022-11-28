@@ -11,6 +11,12 @@
     text-align: justify;
     font-family: 'Post No Bills Jaffna SemiBold', sans-serif;
 }
+.txt-result {
+    font-family: 'Poppins';
+}
+.txt-courses {
+    font-family: 'Poppins';
+}
 .embed-mot {
     border-radius: 15px;
 }
