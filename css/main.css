@@ -23,3 +23,15 @@
 .btn-courses {
     width: 290px;
 }
+.btn-forms {
+    width: 500px;
+}
+.forms-bg {
+    height: 460px;
+}
+.forms-style {
+    width: 500px;
+    margin-left: 31px;
+    padding-top: 34px;
+    font-family: 'Poppins';
+}
