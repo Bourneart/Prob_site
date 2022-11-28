@@ -26,6 +26,19 @@
 .btn-forms {
     width: 500px;
 }
+.bg-pre-form-one {
+    height: 396px;
+    font-family: 'Poppins';
+}
+.bg-pre-form-two {
+    height: 300px;
+}
+.bg-awakening-txt {
+    height: 530px;
+}
+.bg-ray-txt {
+    height: 391px;
+}
 .forms-bg {
     height: 460px;
 }
