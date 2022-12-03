@@ -39,6 +39,24 @@
     width: 377px;
     height: 64px;
 }
+.txt-curse-one {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+.txt-expert {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.txt-expert-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.txt-color {
+    color: #D8A72B;
+}
 .embed-mot {
     border-radius: 15px;
 }
@@ -50,27 +68,84 @@
     height: 64px;
 }
 .btn-forms {
-    width: 500px;
+    width: 579px;
+    height: 88px;
+    color: #D8A72B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
 }
 .bg-pre-form-one {
-    height: 396px;
-    font-family: 'Poppins';
+    height: 565px;
+    width: 850px;
 }
 .bg-pre-form-two {
-    height: 300px;
+    width: 850px;
+    height: 412px;
 }
 .bg-awakening-txt {
-    height: 530px;
+    width: 792px;
+    height: 704px;
 }
 .bg-ray-txt {
-    height: 391px;
+    width: 850px;
+    height: 496px;
 }
 .forms-bg {
-    height: 460px;
+    height: 704px;
+    width: 792px;
 }
 .forms-style {
-    width: 500px;
+    width: 579px;
     margin-left: 31px;
     padding-top: 34px;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+.txt-awaking-ray {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+}
+.txt-awaking-ray-end {
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+.txt-probujdenie {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+.txt-awakening {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #D8A72B;
+}
+.txt-awakening-end {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.txt-zayavka {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+.txt-zayavka-end {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+.txt-logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.bg-logo-razm {
+    height: 119px;
+    background-color: #202027;
 }
