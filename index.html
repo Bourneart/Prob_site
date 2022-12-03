@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--FONTS BEGIN-->
     <link href="https://fonts.google.com/share?selection.family=PT%20Sans%20Caption:wght@400;700" rel="stylesheet">
     <link href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900" rel="stylesheet">
@@ -117,19 +116,19 @@
     <div class="container cont-two">
         <div class="row">
             <div class="col txt-courses" id="courses">
-                <a href="/mentor.html"><p>MENTOR</p></a>
+                <a class="txt-courses-link" href="/mentor.html"><p>MENTOR</p></a>
                 <a href="/mentor.html"><img src="img/mentor.png" alt="mentor" width="377" height="537"></a>
             </div>
             <div class="col txt-courses">
-                <a href="/awakening.html"><p>AWAKENING</p></a>
+                <a class="txt-courses-link" href="/awakening.html"><p>AWAKENING</p></a>
                 <a href="/awakening.html"><img src="img/awakening.png" alt="mentor" width="377" height="537"></a>
             </div>
             <div class="col txt-courses">
-                <a href="/contact.html"><p>CONTACT</p></a>
+                <a class="txt-courses-link" href="/contact.html"><p>CONTACT</p></a>
                 <a href="/contact.html"><img src="img/contact.png" alt="mentor" width="377" height="537"></a>
             </div>
             <div class="col txt-courses">
-                <a href="/connection.html"><p>CONNECTION</p></a>
+                <a class="txt-courses-link" href="/connection.html"><p>CONNECTION</p></a>
                 <a href="/connection.html"><img src="img/connection.png" alt="mentor" width="377" height="537"></a>
             </div>
         </div>
@@ -263,7 +262,7 @@
                 </div>
             </div>
             <div class="col">
-                <p class="txt-probujdenie text-center text-white">Пробуждение</p>
+                <p class="txt-probujdenie text-center text-white" id="o_proekte">Пробуждение</p>
                 <div class="container bg-awakening-txt bg-dark rounded-3">
                     <p class="txt-awakening text-center">Awakening</p>
                     <p class="txt-awakening-end text-center text-white"> Данный проект представляет новые результаты в области модернизации личности и решение многих 
@@ -321,10 +320,10 @@
                     <nav class="navbar">
                         <ul class="nav nav-fonts-footer justify-content-start">
                             <li class="nav-item">
-                                <a class="nav-link" href="#courses">О проекте</a>
+                                <a class="nav-link" href="#o_proekte">О проекте</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#zayavka">Контакты</a>
+                                <a class="nav-link" href="#contact">Контакты</a>
                             </li>
                         </ul>
                         <ul class="nav footer-style justify-content-end">
@@ -343,6 +342,42 @@
         </div>
     </header>
     <!--FOOTER END-->
+    <div class="dm-overlay" id="contact">
+        <div class="dm-table">
+            <div class="dm-cell">
+                <div class="dm-modal">
+                    <a href="#close" class="close"></a>
+                    <h3 class="txt-modal">Контакты</h3>
+                    <div class="row">
+                        <div class="col">
+                            <ul class="nav modal-style justify-content-start">
+                                <a class="navbar-brand footer-fonts" style="padding-bottom: 20px" href="https://www.instagram.com/awakening.online/" target="_blank">
+                                    <img src="img/insta_cont.png" alt="" width="60" height="60" class="d-inline-block align-text-center">
+                                    Awakening.online
+                                </a>
+                                <a class="navbar-brand footer-fonts" href="https://www.instagram.com/awaken.ray/" target="_blank">
+                                    <img src="img/insta_cont.png" alt="" width="60" height="60" class="d-inline-block align-text-center">
+                                    Awaken.ray
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul class="nav modal-style justify-content-start">
+                                <a class="navbar-brand footer-fonts" style="padding-bottom: 20px" href="https://t.me/awaken_supp" target="_blank">
+                                    <img src="img/telega.png" alt="" width="60" height="60" class="d-inline-block align-text-center">
+                                    @awaken_supp
+                                </a>
+                                <a class="navbar-brand footer-fonts" href="mailto:info@awakening-online.ru" target="_blank">
+                                    <img src="img/pochta.png" alt="" width="60" height="60" class="d-inline-block align-text-center">
+                                    info@awakening-online.ru
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- JavaScript Bundle with Popper Bootstrap begin-->
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- JavaScript Bundle with Popper Bootstrap end-->
