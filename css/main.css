@@ -9,6 +9,12 @@
     font-size: 24px;
     font-weight: 600;
 }
+.nav-link:hover{
+    color:#D8A72B;
+}
+.nav-link:focus {
+    color:white;
+}
 .txt-mot {
     font-size: 48px;
     margin-top: 2.15rem;
@@ -194,6 +200,12 @@
     padding-top: 26px;
     padding-bottom: 32px;
 }
+.navbar-brand.txt-logo:hover {
+    color: #D8A72B;
+}
+.navbar-brand.txt-logo:focus {
+    color: white;
+}
 .txt-awakening-course {
     font-family: 'Poppins', sans-serif;
     font-size: 44px;
@@ -231,4 +243,48 @@
 .form-control {
     height: 60px;
     background-color: #212529;
+}
+.bg-footer {
+    height: 121px;
+    background-color: #202027;
+}
+.nav-fonts-footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-left: 120px;
+}
+.footer-fonts {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.navbar-brand.footer-fonts:hover {
+    color:#D8A72B;
+}
+.navbar-brand.footer-fonts:focus {
+    color:white;
+}
+.footer-style {
+    padding-top: 30px;
+    margin-right: 120px;
+}
+.form-control {
+    color:#D8A72B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    -webkit-text-stroke: 0px black
+}
+.form-control:focus {
+    color:#D8A72B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #212529;
+    -webkit-text-stroke: 0px black;
+    border-color: #ffd612;
+    box-shadow: 0 0 0 0.25rem #D8A72B;
 }
