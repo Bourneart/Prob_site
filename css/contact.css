@@ -1,0 +1,62 @@
+.txt-mentor {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color:white;
+    padding-left: 170px;
+}
+.bg-main-mentor {
+    width: 1184px;
+    height: 537px;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.txt-mentor-main {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    padding-left: 40px;
+    margin-top: 60px;
+    padding-right: 40px;
+}
+.bg-jump {
+    width: 1184px;
+    height: 70px;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding-top: 7px;
+}
+.btn-courses-mentor {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 377px;
+    height: 70px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+    color:black;
+    background-color: #D8A72B;
+    -webkit-text-stroke: 0px black;
+}
+.btn.btn-courses-mentor:hover {
+    background-color: #ffd612;
+}
+.btn-mentor-buy {
+    width: 225px;
+    height: 54px;
+    background-color: #D8A72B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+.btn.btn-mentor-buy:hover {
+    background-color: #ffd612;
+    color:black;
+}
+.txt-awake {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
