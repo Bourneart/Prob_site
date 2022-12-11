@@ -1,8 +1,10 @@
 .bg-main {
     background-image: url("/img/background.png");
+    width: 1680px;
 }
 .bg-courses {
     background-image: url("/img/background2.png");
+    width: 1680px;
 }
 .nav-fonts {
     font-family: 'Poppins', sans-serif;
@@ -16,7 +18,7 @@
     color:white;
 }
 .txt-mot {
-    font-size: 48px;
+    font-size: 43px;
     margin-top: 2.15rem;
     margin-bottom: 2.15rem;
     text-align: justify;
@@ -120,10 +122,10 @@
 }
 .bg-pre-form-one {
     height: 579px;
-    width: 850px;
+    width: 800px;
 }
 .bg-pre-form-two {
-    width: 850px;
+    width: 800px;
     height: 412px;
 }
 .bg-awakening-txt {
@@ -131,12 +133,12 @@
     height: 704px;
 }
 .bg-ray-txt {
-    width: 850px;
+    width: 800px;
     height: 522px;
 }
 .forms-bg {
     height: 704px;
-    width: 792px;
+    width: 756px;
 }
 .forms-style {
     width: 579px;
@@ -208,10 +210,10 @@
 }
 .txt-awakening-course {
     font-family: 'Poppins', sans-serif;
-    font-size: 44px;
+    font-size: 38px;
     font-weight: 400;
     color: white;
-    margin-top: 7px;
+    margin-top: 14px;
     -webkit-text-stroke: 1px black;
 }
 .btn-awakening-course {
@@ -230,6 +232,7 @@
 .bg-logo-razm {
     height: 119px;
     background-color: #202027;
+    width: 1680px;
 }
 .cont-one {
     padding-top: 100px;
@@ -247,6 +250,7 @@
 .bg-footer {
     height: 121px;
     background-color: #202027;
+    width: 1680px;
 }
 .nav-fonts-footer {
     font-family: 'Poppins', sans-serif;
@@ -466,4 +470,8 @@
 }
 .txt-modal {
     color: white;
+}
+.forms-one {
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
