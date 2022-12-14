@@ -1,0 +1,495 @@
+.bg-main {
+    background-image: url("/img/bg_mobile.png");
+    width: 1078px;
+}
+.bg-courses {
+    background-image: url("/img/bg_mobile.png");
+    width: 1078px;
+}
+.nav-fonts {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color:#D8A72B;
+}
+.nav-link:focus {
+    color:white;
+}
+.txt-mot {
+    font-size: 40px;
+    margin-top: 2.15rem;
+    margin-bottom: 2.15rem;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+.txt-result {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    -webkit-text-stroke: 0px black;
+}
+.txt-courses {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color:white;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    padding-top: 50px;
+}
+.txt-courses-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    padding-top: 50px;
+    -webkit-text-stroke: 1px black;
+}
+.txt-courses-btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 377px;
+    height: 64px;
+}
+.txt-curse-one {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+.txt-expert {
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+.txt-expert-list {
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+.txt-color {
+    color: #D8A72B;
+}
+.txt-color-btn{
+    color: #E19726;
+}
+.embed-mot {
+    border-radius: 15px;
+}
+.btn-courses {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 377px;
+    height: 64px;
+    color:black;
+    background-color: #D8A72B;
+    -webkit-text-stroke: 0px black;
+}
+.btn.btn-courses:hover {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 377px;
+    height: 64px;
+    color:black;
+    background-color: #ffd612;
+    -webkit-text-stroke: 0px black;
+}
+.btn-forms {
+    width: 579px;
+    height: 88px;
+    background-color: #D8A72B;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-text-stroke: 0px black;
+}
+.btn.btn-forms:hover {
+    width: 579px;
+    height: 88px;
+    background-color: #ffd612;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-text-stroke: 0px black;
+}
+.bg-pre-form-one {
+    height: 651px;
+    width: 993px;
+}
+.bg-pre-form-two {
+    width: 800px;
+    height: 412px;
+}
+.bg-awakening-txt {
+    width: 792px;
+    height: 704px;
+}
+.bg-ray-txt {
+    width: 800px;
+    height: 522px;
+}
+.forms-bg {
+    height: 704px;
+    width: 756px;
+}
+.forms-style {
+    width: 579px;
+    margin-left: 90px;
+    padding-top: 34px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+.txt-awaking-ray {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 30px;
+    -webkit-text-stroke: 1px black;
+}
+.txt-awaking-ray-end {
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+.txt-probujdenie {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+.txt-awakening {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #D8A72B;
+    padding-top: 27px;
+    -webkit-text-stroke: 0px black;
+}
+.txt-awakening-end {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+.txt-zayavka {
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+}
+.txt-mentor-main {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+.txt-zayavka-end {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 72px;
+    -webkit-text-stroke: 1px black;
+}
+.txt-logo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    padding-top: 26px;
+    padding-bottom: 32px;
+}
+.navbar-brand.txt-logo:hover {
+    color: #D8A72B;
+}
+.navbar-brand.txt-logo:focus {
+    color: white;
+}
+.txt-awakening-course {
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    color: white;
+    margin-top: 2px;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+}
+.btn-awakening-course {
+    width: 275px;
+    height: 75px;
+    background-color: #D8A72B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+    margin-left: 37%;
+}
+.btn.btn-awakening-course:hover {
+    background-color: #ffd612;
+    color: black;
+}
+.bg-logo-razm {
+    height: 119px;
+    background-color: #202027;
+    width: 1078px;
+}
+.cont-one {
+    padding-bottom: 30px;
+}
+.cont-two {
+    padding-top: 46px;
+    padding-bottom: 100px;
+}
+.form-control {
+    height: 60px;
+    background-color: #212529;
+}
+.bg-footer {
+    height: 121px;
+    background-color: #202027;
+    width: 1078px;
+}
+.nav-fonts-footer {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 30px;
+    margin-left: 120px;
+}
+.footer-fonts {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+.navbar-brand.footer-fonts:hover {
+    color:#D8A72B;
+}
+.navbar-brand.footer-fonts:focus {
+    color:white;
+}
+.footer-style {
+    padding-top: 30px;
+    margin-right: 120px;
+}
+.form-control {
+    color:#D8A72B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    -webkit-text-stroke: 0px black
+}
+.form-control:focus {
+    color:#D8A72B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    background-color: #212529;
+    -webkit-text-stroke: 0px black;
+    border-color: #ffd612;
+    box-shadow: 0 0 0 0.25rem #D8A72B;
+}
+.txt-courses-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+.txt-courses-link:hover {
+    color:#D8A72B;
+}
+.forms-bg-course {
+    width: 984px;
+    height: 924px;
+}
+
+/* Стили модального окна и содержания 
+-------------------------------------------------------------------------------*/
+ 
+/* слой затемнения */
+ 
+.dm-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.65);
+    display: none;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+/* активируем модальное окно */
+ 
+.dm-overlay:target {
+    display: block;
+    -webkit-animation: fade .6s;
+    -moz-animation: fade .6s;
+    animation: fade .6s;
+}
+/* блочная таблица */
+ 
+.dm-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+/* ячейка блочной таблицы */
+ 
+.dm-cell {
+    display: table-cell;
+    padding: 0 1em;
+    vertical-align: middle;
+    text-align: center;
+}
+/* модальный блок */
+ 
+.dm-modal {
+    display: inline-block;
+    padding: 20px;
+    max-width: 50em;
+    background: #565758;
+    -webkit-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.22), 0px 19px 60px rgba(0, 0, 0, 0.3);
+    color: #cfd8dc;
+    text-align: left;
+}
+/* изображения в модальном окне */
+ 
+.dm-modal img {
+    height: auto;
+}
+/* миниатюры изображений */
+ 
+.pl-left,
+.pl-right {
+    width: 25%;
+    height: auto;
+}
+/* миниатюра справа */
+ 
+.pl-right {
+    float: right;
+    margin: 5px 0 5px 15px;
+}
+/* миниатюра слева */
+ 
+.pl-left {
+    float: left;
+    margin: 5px 15px 5px 0;
+}
+/* встраиваемое видео в модальном окне */
+ 
+.video {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* рисуем кнопарь закрытия */
+ 
+.close {
+    z-index: 9999;
+    float: right;
+    width: 30px;
+    height: 30px;
+    color: #cfd8dc;
+    text-align: center;
+    text-decoration: none;
+    line-height: 26px;
+    cursor: pointer;
+}
+.close:after {
+    display: block;
+    border: 2px solid #cfd8dc;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    content: 'X';
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    transform: scale(0.85);
+}
+/* кнопка закрытия при наведении */
+ 
+.close:hover:after {
+    border-color: #fff;
+    color: #fff;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+/* варианты фонвой заливки модального блока */
+ 
+.green {
+    background: #388e3c!important;
+}
+.cyan {
+    background: #0097a7!important;
+}
+.teal {
+    background: #00796b!important;
+}
+/* движуха при появлении блоков с содержанием */
+ 
+@-moz-keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1
+    }
+}
+.txt-modal {
+    color: white;
+}
+.forms-one {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
