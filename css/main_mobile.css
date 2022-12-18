@@ -3,8 +3,11 @@
     width: 1078px;
 }
 .bg-courses {
-    background-image: url("/img/bg_mobile.png");
+    background-image: url("/img/bg_mobile2.png");
     width: 1078px;
+}
+.container.bg-dark {
+    background-color: #202027;
 }
 .nav-fonts {
     font-family: 'Poppins', sans-serif;
@@ -18,9 +21,9 @@
     color:white;
 }
 .txt-mot {
-    font-size: 40px;
+    font-size: 48px;
     margin-top: 2.15rem;
-    margin-bottom: 2.15rem;
+    margin-bottom: -0.85rem;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -70,6 +73,12 @@
 .txt-expert-list {
     font-family: 'Poppins', sans-serif;
     font-size: 33px;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+.txt-expert-list-mobile {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
     font-weight: 600;
     -webkit-text-stroke: 1px black;
 }
@@ -125,6 +134,7 @@
 .bg-pre-form-one {
     height: 651px;
     width: 993px;
+    border-radius: 20px;
 }
 .bg-pre-form-two {
     width: 800px;
@@ -133,10 +143,12 @@
 .bg-awakening-txt {
     width: 792px;
     height: 704px;
+    border-radius: 20px;
 }
 .bg-ray-txt {
     width: 800px;
     height: 522px;
+    border-radius: 20px;
 }
 .forms-bg {
     height: 704px;
@@ -156,14 +168,14 @@
     font-size: 44px;
     font-weight: 600;
     margin-bottom: 15px;
-    padding-top: 30px;
-    -webkit-text-stroke: 1px black;
+    padding-top: 13px;
+    -webkit-text-stroke: 0px black;
 }
 .txt-awaking-ray-end {
     font-family: 'Poppins', sans-serif;
     font-size: 27px;
     font-weight: 600;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0px black;
 }
 .txt-probujdenie {
     font-family: 'Poppins', sans-serif;
@@ -175,14 +187,16 @@
     font-size: 40px;
     font-weight: 400;
     color: #D8A72B;
-    padding-top: 27px;
+    padding-top: 50px;
+    margin-bottom: -1.35rem;
     -webkit-text-stroke: 0px black;
 }
 .txt-awakening-end {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: 600;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 0px black;
+    padding-top: 79px;
 }
 .txt-zayavka {
     font-family: 'Poppins', sans-serif;
@@ -191,11 +205,11 @@
 }
 .txt-mentor-main {
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 800;
     color: white;
     text-align: center;
-    padding-top: 45px;
+    padding-top: 24px;
 }
 .txt-zayavka-end {
     font-family: 'Poppins', sans-serif;
@@ -220,7 +234,7 @@
 }
 .txt-awakening-course {
     font-family: 'Poppins', sans-serif;
-    font-size: 44px;
+    font-size: 36px;
     font-weight: 400;
     color: white;
     margin-top: 2px;
@@ -255,7 +269,7 @@
 }
 .form-control {
     height: 60px;
-    background-color: #212529;
+    background-color: #202027;
 }
 .bg-footer {
     height: 121px;
@@ -297,7 +311,7 @@
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 400;
-    background-color: #212529;
+    background-color: #202027;
     -webkit-text-stroke: 0px black;
     border-color: #ffd612;
     box-shadow: 0 0 0 0.25rem #D8A72B;
@@ -306,16 +320,28 @@
     color: white;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 33px;
     font-weight: 800;
     text-align: center;
 }
 .txt-courses-link:hover {
     color:#D8A72B;
+    font-size: 33px;
+    font-weight: 800;
 }
 .forms-bg-course {
     width: 984px;
     height: 924px;
+    border: 1px solid white;
+    border-radius: 55px;
+}
+.forms-bg-one {
+    width: 792px;
+    height: 704px;
+    border-radius: 20px;
+}
+.txt-color-course {
+    color: #E19726;
 }
 
 /* Стили модального окна и содержания 
