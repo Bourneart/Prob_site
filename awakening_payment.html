@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1920px, initial-scale=1">
+    <!--FONTS BEGIN-->
+    <link href="https://fonts.google.com/share?selection.family=PT%20Sans%20Caption:wght@400;700" rel="stylesheet">
+    <link href="https://fonts.google.com/share?selection.family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/post-no-bills-jaffna" rel="stylesheet">
+    <!--FONTS END-->
+    <!-- CSS Bootstrap begin-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/awakening_payment.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/ykassa.css">
+    <!-- CSS Bootstrap end-->
+    <script src="https://yookassa.ru/integration/simplepay/js/yookassa_construct_form.js"></script>
+    <title>Mentor - awakening</title>
+</head>
+<!--MAIN BODY BEGIN-->
+<body>
+<div class="container bg-main bg-dark" style="height: 981px;">
+    <div class="row">
+        <div class="col">
+            <nav class="navbar">
+                <a class="navbar-brand txt-logo" href="/" style="padding-left: 28px">
+                    <img src="img/logo_head.png" alt="Logo" width="89" height="54" class="d-inline-block align-text-center"> 
+                    Awakening
+                </a>
+                <ul class="nav nav-fonts justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/" style="padding-right: 92px">На главную</a>
+                    </li>
+                </ul>
+            </nav> 
+        </div>
+    </div>
+    <div class="container main-cont bg-dark">
+        <div class="row">
+            <div class="col img-col">
+                <img src="img/awake_payment.png" alt="mentor" width="395" height="527">
+            </div>
+            <div class="col txt-col">
+                <p class="txt-main">Вы покупаете видеокурс<br><span class="txt-color">AWAKENING </span><br>Основа пробуждения,<br> самостоятельная практика.</p>
+                <img src="img/payment.png" alt="mentor" width="238" height="191" style="margin-left: 140px;">
+                <form class="yoomoney-payment-form" action="https://yookassa.ru/integration/simplepay/payment" method="post" accept-charset="utf-8" >
+                    <input name="customerNumber" type="hidden" value="По всем вопросам обращайтесь в телегам @awaken_supp
+                Удачного пути к пробуждению.">
+                    <div class="ym-payment-btn-block" style="margin-left: 95px;">
+                        <div class="ym-input-icon-rub ym-display-none">
+                            <input name="sum" placeholder="0.00" class="ym-input ym-sum-input ym-required-input" type="number" step="any" value="2850">
+                        </div>
+                        <button data-text="Заплатить" class="ym-btn-pay ym-result-price"><span class="ym-text-crop">Заплатить</span> <span class="ym-price-output"> 2&nbsp;850,00&nbsp;₽</span></button><lineargradient id="paint0_linear" x1="57.3564" y1="0" x2="57.3564" y2="63" gradientunits="userSpaceOnUse"><stop stop-color="#0160D1"><stop offset="1" stop-color="#00479C"></stop></stop></lineargradient>
+                <lineargradient id="paint1_linear" x1="12.8472" y1="9.35889" x2="12.8472" y2="55.2393" gradientunits="userSpaceOnUse"><stop stop-color="#0160D1"><stop offset="1" stop-color="#00479C"></stop></stop></lineargradient>
+                
+                    </div>
+                <input name="shopId" type="hidden" value="954574"></form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+    </div>
+</div>
+</body>
+</html>

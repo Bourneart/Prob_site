@@ -1,0 +1,33 @@
+.txt-main {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    --webkit-text-stroke: 1px black;
+}
+.main-cont {
+    width: 1142px;
+    height: 716px;
+    border: 1px solid #5BB298;
+    border-radius: 62px;    
+}
+.img-col {
+    margin-top: 90px;
+    padding-left: 70px;
+}
+.txt-col {
+    margin-top: 90px;
+    padding-right: 70px;
+}
+.yoomoney-payment-form .ym-payment-btn-block .ym-btn-pay .ym-result-price {
+    max-width: 394px;
+}
+.yoomoney-payment-form .ym-payment-btn-block .ym-btn-pay .ym-text-crop {
+    font-size: 25px;
+    font-weight: 800;
+}
+.yoomoney-payment-form .ym-payment-btn-block .ym-btn-pay .ym-price-output {
+    font-size: 25px;
+    font-weight: 800;
+}
